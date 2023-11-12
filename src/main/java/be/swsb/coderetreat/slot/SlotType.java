@@ -1,16 +1,17 @@
-package be.swsb.coderetreat;
+package be.swsb.coderetreat.slot;
 
-public enum Type {
+public enum SlotType {
 
     WAVE("🌊"),
     BOAT("🚢"),
     EXPLODE("💥"),
-    SUNK("😢")
+    SUNK("🔥"),
+    SPLASH("💦")
     ;
 
     public final String icon;
 
-    Type(String icon) {
+    SlotType(String icon) {
         this.icon = icon;
     }
 
